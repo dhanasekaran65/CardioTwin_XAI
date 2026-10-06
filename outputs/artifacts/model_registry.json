@@ -1,0 +1,34 @@
+[
+  {
+    "version": 1,
+    "batch": -1,
+    "reason": "initial"
+  },
+  {
+    "version": 2,
+    "batch": 3,
+    "reason": "drift",
+    "holdout_logloss_before": 0.45869456092674665,
+    "holdout_logloss_after": 0.4364145315002394,
+    "top_attribution_shift": "ca",
+    "top_attribution_delta": -0.09582379460334778
+  },
+  {
+    "version": 3,
+    "batch": 4,
+    "reason": "drift",
+    "holdout_logloss_before": 0.5120145513705452,
+    "holdout_logloss_after": 0.5082915580045304,
+    "top_attribution_shift": "chol",
+    "top_attribution_delta": 0.08703422546386719
+  },
+  {
+    "version": 4,
+    "batch": 6,
+    "reason": "drift",
+    "holdout_logloss_before": 0.5340687500657142,
+    "holdout_logloss_after": 0.5145716350439735,
+    "top_attribution_shift": "chol",
+    "top_attribution_delta": 0.24527901411056519
+  }
+]

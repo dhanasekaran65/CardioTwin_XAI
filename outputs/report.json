@@ -1,0 +1,48 @@
+{
+  "test_metrics": {
+    "auroc": 0.7923953906505394,
+    "auprc": 0.7157945984750823,
+    "brier": 0.183014805054075,
+    "logloss": 0.5557762243309305,
+    "ece": 0.07489425943957435,
+    "threshold": 0.3850511908531189,
+    "sensitivity": 0.7717391304347826,
+    "specificity": 0.6842105263157895,
+    "accuracy": 0.72
+  },
+  "top_features": {
+    "cp": 0.5343000292778015,
+    "oldpeak": 0.43389999866485596,
+    "thal": 0.4244999885559082,
+    "ca": 0.42260000109672546,
+    "thalach": 0.4223000109195709
+  },
+  "faithfulness_k3": {
+    "SHAP": 0.24812659621238708,
+    "Random": 0.09514931589365005
+  },
+  "twin": {
+    "rates": {
+      "trestbps": 2.0879278681301123,
+      "chol": 2.6034791178413257,
+      "thalach": -1.3974896200207803,
+      "oldpeak": 0.03
+    },
+    "risk_now": 0.6595413684844971,
+    "risk_10y": {
+      "No change": 0.9315387010574341,
+      "BP control": 0.848923921585083,
+      "Lipid control": 0.8855288028717041,
+      "Exercise program": 0.8092806935310364,
+      "Combined": 0.6033573746681213
+    },
+    "narrative": "Estimated cardiovascular risk: 66%. Main factors raising risk: Exercise angina = 1, Thalassemia = 3, Age = 64. Main factors lowering risk: Sex (1=M) = 0, Max heart rate = 172.078, Chest pain type = 1. (SHAP units: log-odds; explains the model, not causal effects.)"
+  },
+  "self_learning": {
+    "final_version": 4,
+    "mean_logloss_adaptive": 0.47924645572596103,
+    "mean_logloss_frozen": 0.5027179562195047,
+    "mean_auroc_adaptive": 0.8507889041385703,
+    "mean_auroc_frozen": 0.835100186977692
+  }
+}
